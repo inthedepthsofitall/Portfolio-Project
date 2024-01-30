@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+
+# Build artifacts
+.next/
+out/
+.build/
+
+# Environment files(not sure about database)
+# .env
+# .env.local
+# .env.*.local
+
+# # Log files
+# *.log
+
+# Editor directories
+.idea/
+.vscode/
+
+# Operating system files(not sure about a database)
+# .DS_Store
+# Thumbs.db
+/.pnp
+.yarn/cache
