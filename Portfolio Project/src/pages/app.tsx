@@ -1,12 +1,14 @@
 import React from 'react';
 import { AppProps } from 'next/app';
-import Layout from '../components/portfolio-project';
+import Navbar from '../components/Navbar'; // Import your shared components
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
-    <Layout>
+    <>
+      <Navbar />
       <Component {...pageProps} />
-    </Layout>
+      {/* Add other global components here */}
+    </>
   );
 };
 
