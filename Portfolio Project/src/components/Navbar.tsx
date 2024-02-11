@@ -1,17 +1,11 @@
 import React from 'react';
-import Link from 'next/link';
-
+import styles from './Navbar.module.css';
 const Navbar: React.FC = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/about">About</Link>
-        </li>
-        {/* Add other navigation items as needed */}
+    <nav className={styles.nav}>
+      <ul className={styles.navList}>
+        <li className={styles.navItem}>Home</li>
+        <li className={styles.navItem}>About</li>
       </ul>
     </nav>
   );

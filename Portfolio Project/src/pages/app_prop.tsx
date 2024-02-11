@@ -1,6 +1,9 @@
 import React from 'react';
 import { AppProps } from 'next/app';
-import Navbar from '../components/Navbar'; // Import your shared components
+import Navbar from '../components/Navbar'; 
+import '../styles/global.css';
+
+
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (

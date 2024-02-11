@@ -1,0 +1,19 @@
+.nav {
+    background-color: #ddd;
+    height:100px;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navItem {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  
+
+  
