@@ -1,17 +1,11 @@
 .container {
-    display: flex;
     max-width: 800vh;
-    justify-content: center;
     margin: 0 auto;
     padding: 20px;
-    background-color: turquoise;
-    text-align: center;
+    background-color: lightblue;
     height: 100vh;
   }
   
   .container h1 {
     color: #333;
   }
-  
- 
-  
