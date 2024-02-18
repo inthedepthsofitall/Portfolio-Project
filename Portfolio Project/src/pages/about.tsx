@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Layout from '../components/layout';
 import styles from '../styles/about.module.css';
 const AboutPage: React.FC = () => {
@@ -24,7 +24,7 @@ const AboutPage: React.FC = () => {
         I see a lot of the similarities between Mixed Martial Arts and Software Development where everyday there are certain obstacles to overcome but once you are able to get in a 
         groove, it becomes more smooth over time. The feeling of accomplishing the goal in both worlds is similar and filled with adrenaline/gratification. 
       </p>
-      <Link href="/about">Go to About Page</Link>
+      {/* <Link href="/about">Go to About Page</Link> */}
 
     </div>
     </Layout>
